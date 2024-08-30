@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@color/purple</item>
+        <item name="postSplashScreenTheme">@style/Theme.Letterboxd</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/animated_logo</item>
+
+    </style>
+</resources>

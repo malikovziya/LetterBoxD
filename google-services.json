@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "200356255147",
+    "project_id": "letterboxd-app-bf4cf",
+    "storage_bucket": "letterboxd-app-bf4cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200356255147:android:d005bde27f4d9ec4e36eee",
+        "android_client_info": {
+          "package_name": "com.example.letterboxd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA42u566OjjI9MNsoaPV2eXnP7tVoNO7ZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedCornersImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomRight">100%</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.navTheme">
+
+        <!-- Color of text and icon when SELECTED -->
+        <item name="colorPrimary">@color/white</item>
+
+        <!-- Background color when SELECTED -->
+        <item name="colorControlHighlight">@color/black</item>
+    </style>
+
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">
+            @color/chip_background
+        </item>
+
+        <item name="chipIconTint">
+            @color/white
+        </item>
+
+        <item name="checkedIcon">
+            @drawable/watched
+        </item>
+
+        <item name="checkedIconTint">
+            @color/white
+        </item>
+    </style>
+
+    <style name="Theme.App" parent="@android:style/Theme.DeviceDefault" />
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_background"
+    android:paddingTop="10dp"
+    android:paddingBottom="25dp"
+    tools:context=".ui.fragments.bottom_sheets.MovieListsFragment">
+
+    <View
+        android:id="@+id/view699"
+        android:layout_width="50dp"
+        android:layout_height="8dp"
+        android:background="@drawable/bottom_picker_shape"
+        android:backgroundTint="#500763"
+        android:paddingTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageMovie1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img"
+        app:layout_constraintEnd_toStartOf="@+id/imageMovie2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view699"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Large" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageMovie2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageMovie1"
+        app:layout_constraintTop_toTopOf="@+id/imageMovie1"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Large" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageMovie3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img"
+        app:layout_constraintStart_toStartOf="@+id/imageMovie1"
+        app:layout_constraintTop_toBottomOf="@+id/imageMovie1"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Large" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageMovie4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img"
+        app:layout_constraintEnd_toEndOf="@+id/imageMovie2"
+        app:layout_constraintTop_toTopOf="@+id/imageMovie3"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Large" />
+</androidx.constraintlayout.widget.ConstraintLayout>

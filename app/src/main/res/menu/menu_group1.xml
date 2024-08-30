@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/item101"
+            android:icon="@drawable/home_263115"
+            android:title="Home"
+            android:checkable="true"
+            android:checked="true" />
+
+        <item
+            android:id="@+id/item102"
+            android:icon="@drawable/clapper"
+            android:title="Watched movies"
+            android:checkable="true" />
+
+        <item
+            android:id="@+id/item103"
+            android:title="Reviews"
+            android:icon="@drawable/review"
+            android:checkable="true"/>
+
+        <item
+            android:id="@+id/item104"
+            android:title="Watchlists"
+            android:icon="@drawable/file"
+            android:checkable="true"/>
+
+        <item
+            android:id="@+id/item105"
+            android:title="Likes"
+            android:icon="@drawable/heart"
+            android:checkable="true"/>
+</menu>
